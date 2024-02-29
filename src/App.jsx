@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import DatVe from './Components/datVe/DatVe';
+import DatVe from './Dat_ve/DatVe';
+
 function App() {
   return (
-    <div>
-      <DatVe/>
+    <div className="App">
+
+      <DatVe />
     </div>
   );
 }
